@@ -1,0 +1,9 @@
+DEPENDENCIES
+  apt
+  workstation
+    path: .
+    metadata: true
+
+GRAPH
+  apt (2.6.1)
+  workstation (0.1.0)
