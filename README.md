@@ -7,7 +7,7 @@ Use Vagrant to test running from a fresh Ubuntu 14.04 install
 ## Installing and Running Chef
 
 Installation Steps:
-  1. Install Chef: `curl -L https://www.opscode.com/chef/install.sh | sudo bash`
+  1. Install ChefDK: `curl -L https://www.opscode.com/chef/install.sh | sudo bash -s -- -P chefdk`
   2. Install git: `sudo apt-get install git`
   3. Install the repo: `git clone git://github.com/ryanhouston/workstation`
   4. Install cookbooks
