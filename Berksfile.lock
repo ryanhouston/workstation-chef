@@ -2,6 +2,9 @@ DEPENDENCIES
   apt
   git
   rbenv
+    git: git://github.com/fnichol/chef-rbenv.git
+    revision: 0a3018634bafe58ad21c6ee271af015220e444b9
+  ruby_build
   workstation
     path: .
     metadata: true
@@ -18,12 +21,11 @@ GRAPH
     windows (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
-  ohai (2.0.1)
-  rbenv (1.7.1)
-    apt (>= 0.0.0)
-    build-essential (>= 0.0.0)
-    git (>= 0.0.0)
-    ohai (>= 1.1)
+  java (1.31.0)
+  rbenv (0.7.3)
+    java (> 1.4.0)
+    ruby_build (>= 0.0.0)
+  ruby_build (0.8.0)
   runit (1.5.16)
     build-essential (>= 0.0.0)
     yum (~> 3.0)
@@ -31,6 +33,8 @@ GRAPH
   windows (1.36.6)
     chef_handler (>= 0.0.0)
   workstation (0.1.0)
+    rbenv (>= 0.0.0)
+    ruby_build (>= 0.0.0)
   yum (3.5.3)
   yum-epel (0.6.0)
     yum (~> 3.0)

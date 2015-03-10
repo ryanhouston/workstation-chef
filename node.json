@@ -2,8 +2,7 @@
   "run_list": [
     "recipe[apt]",
     "recipe[git]",
-    "recipe[rbenv::default]",
-    "recipe[rbenv::ruby_build]"
+    "recipe[workstation::ruby]"
   ]
 }
 
