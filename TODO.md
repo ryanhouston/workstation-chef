@@ -1,7 +1,6 @@
 # TODO
 
   * install script
-    * Automates/documents steps 1 and 2
     * How do you do this before having git to clone the repo that contains the
       install script? Probably curl the script and pipe to bash.
 
@@ -25,4 +24,8 @@
     * wine
     * yubikey management tools
     * heroku toolbelt
+    * heroku plugins
+    * rbenv plugins
+    * solarized
+    * ssh keys... without exposing private keys
 
