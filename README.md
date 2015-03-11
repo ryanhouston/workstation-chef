@@ -22,14 +22,13 @@ Installation Steps:
   4. Install cookbooks
 
     * `berks install`
-    * `berks vendor cookbooks/`
+    * `berks vendor cookbooks`
 
-  5. Run chef
+  5. Run chef-client
 
-    * chef-solo: `sudo chef-solo -c solo.rb`
-    * chef-client with local-mode `sudo chef-client --local-mode -c solo.rb`
-      * This is apparently the new preferred/recommended way to run chef on a
-        local machine
+    Use `--local-mode` or shorthand `-z`
+
+    `sudo chef-client --local-mode`
 
 Repeat steps 4 and 5 as recipes are added or modified.
 
