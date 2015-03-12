@@ -9,15 +9,14 @@
     * Development
       * ryanhouston/dotfiles repo
       * ryanhouston/Vim-Config repo
-      * rbenv plugins
       * solarized
       * ssh keys... without exposing private keys
       * ack-grep
       * tmux
       * zsh / ohmyzsh
       * virtualbox
+      * repos to pre-clone
     * Apps
-      * dell driver installer?
       * keepassx
       * bittorrent sync
       * f.lux

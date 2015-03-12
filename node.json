@@ -2,6 +2,7 @@
   "run_list": [
     "recipe[apt]",
     "recipe[git]",
+    "recipe[workstation::default]",
     "recipe[workstation::ruby]",
     "recipe[workstation::heroku]"
   ]

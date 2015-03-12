@@ -1,8 +1,19 @@
-default['rbenv']['user_installs'] = [
+default[:rbenv][:user_installs] = [
   {
-    'user'    => ENV['SUDO_USER'] || ENV['USER'],
-    'rubies'  => ['2.2.0'],
-    'global'  => '2.2.0',
+    user:    ENV['SUDO_USER'] || ENV['USER'],
+    group:   ENV['SUDO_USER'] || ENV['USER'],
+    rubies:  ['2.2.0'],
+    global:  '2.2.0',
+    plugins: [
+      {
+        name:    'rbenv-ctags',
+        git_url: 'https://github.com/tpope/rbenv-ctags',
+      },
+      {
+        name:    'rbenv-communal-gems',
+        git_url: 'https://github.com/tpope/rbenv-communal-gems',
+      }
+    ]
   }
 ]
 default['rbenv']['upgrade'] = true
