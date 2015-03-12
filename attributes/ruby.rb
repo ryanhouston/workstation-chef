@@ -5,8 +5,9 @@ default['rbenv']['user_installs'] = [
     'global'  => '2.2.0',
   }
 ]
+default['rbenv']['upgrade'] = true
 
-default['ruby_build']['updates'] = true
+default['ruby_build']['upgrade'] = true
 
 # Add missing dependencies from ruby_build cookbook
 # https://github.com/fnichol/chef-ruby_build/issues/31
