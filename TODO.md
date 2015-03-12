@@ -23,9 +23,9 @@
     * beersmith
     * wine
     * yubikey management tools
-    * heroku toolbelt
     * heroku plugins
     * rbenv plugins
     * solarized
     * ssh keys... without exposing private keys
+    * ack-grep
 
