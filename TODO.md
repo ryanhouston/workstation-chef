@@ -6,25 +6,28 @@
 
       `curl -L https://github.com/ryanhouston/workstation/raw/master/install.sh | sudo bash`
   * Recipes to install stuff
-    * ryanhouston/dotfiles repo
-    * ryanhouston/Vim-Config repo
-    * dell driver installer?
-    * zsh / ohmyzsh
-    * virtualbox
-    * keepassx
-    * bittorrent sync
-    * f.lux
-    * handbrake
-    * hipchat
-    * hp printer tools
-    * skype
-    * google music
-    * asunder
-    * beersmith
-    * wine
-    * yubikey management tools
-    * rbenv plugins
-    * solarized
-    * ssh keys... without exposing private keys
-    * ack-grep
+    * Development
+      * ryanhouston/dotfiles repo
+      * ryanhouston/Vim-Config repo
+      * rbenv plugins
+      * solarized
+      * ssh keys... without exposing private keys
+      * ack-grep
+      * tmux
+      * zsh / ohmyzsh
+      * virtualbox
+    * Apps
+      * dell driver installer?
+      * keepassx
+      * bittorrent sync
+      * f.lux
+      * handbrake
+      * hipchat
+      * hp printer tools
+      * skype
+      * google music
+      * asunder
+      * beersmith
+      * wine
+      * yubikey management tools
 
