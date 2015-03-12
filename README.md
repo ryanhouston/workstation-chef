@@ -22,7 +22,7 @@ Installation Steps:
   4. Install cookbooks
 
     * `berks install`
-    * `berks vendor cookbooks`
+    * `berks vendor`
 
   5. Run chef-client
 
