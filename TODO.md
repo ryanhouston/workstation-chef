@@ -23,7 +23,6 @@
     * beersmith
     * wine
     * yubikey management tools
-    * heroku plugins
     * rbenv plugins
     * solarized
     * ssh keys... without exposing private keys
