@@ -6,4 +6,5 @@
 
 package 'exuberant-ctags'
 package 'tree'
+package 'ack-grep'
 
