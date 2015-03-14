@@ -9,4 +9,5 @@ version          '0.1.0'
 depends "ruby_build"
 depends "rbenv"
 depends "heroku"
+depends "zsh"
 

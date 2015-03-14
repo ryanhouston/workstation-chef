@@ -9,6 +9,7 @@ DEPENDENCIES
   workstation
     path: .
     metadata: true
+  zsh
 
 GRAPH
   apt (2.6.1)
@@ -38,6 +39,8 @@ GRAPH
     heroku (>= 0.0.0)
     rbenv (>= 0.0.0)
     ruby_build (>= 0.0.0)
+    zsh (>= 0.0.0)
   yum (3.5.3)
   yum-epel (0.6.0)
     yum (~> 3.0)
+  zsh (1.0.1)

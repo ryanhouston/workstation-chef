@@ -1,7 +1,7 @@
 default[:rbenv][:user_installs] = [
   {
-    user:    ENV['SUDO_USER'] || ENV['USER'],
-    group:   ENV['SUDO_USER'] || ENV['USER'],
+    user:    node['target_user'],
+    group:   node['target_user'],
     rubies:  ['2.2.0'],
     global:  '2.2.0',
     plugins: [

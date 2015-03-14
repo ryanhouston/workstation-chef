@@ -7,13 +7,13 @@
       `curl -L https://github.com/ryanhouston/workstation/raw/master/install.sh | sudo bash`
   * Recipes to install stuff
     * Development
-      * zsh / ohmyzsh
-      * ryanhouston/dotfiles repo
-      * ryanhouston/Vim-Config repo
       * solarized
       * tmux
+      * ryanhouston/dotfiles repo
+      * ryanhouston/Vim-Config repo
       * virtualbox
       * repos to pre-clone
+      * httpie
       * ssh keys... without exposing private keys
     * Apps
       * keepassx
