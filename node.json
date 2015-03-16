@@ -7,7 +7,8 @@
     "recipe[workstation::heroku]",
     "recipe[workstation::zsh]",
     "recipe[virtualbox]",
-    "recipe[tmux]"
+    "recipe[tmux]",
+    "recipe[workstation::solarized]"
   ],
   "tmux": {
     "install_method": "source",
