@@ -8,7 +8,6 @@
   * Recipes to install stuff
     * Development
       * solarized
-      * tmux
       * ryanhouston/dotfiles repo
       * ryanhouston/Vim-Config repo
       * repos to pre-clone

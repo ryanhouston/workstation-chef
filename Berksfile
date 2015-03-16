@@ -9,4 +9,5 @@ cookbook 'rbenv', github: 'fnichol/chef-rbenv'
 cookbook 'heroku'
 cookbook 'zsh'
 cookbook 'virtualbox'
+cookbook 'tmux'
 
