@@ -5,7 +5,8 @@
     "recipe[workstation::default]",
     "recipe[workstation::ruby]",
     "recipe[workstation::heroku]",
-    "recipe[workstation::zsh]"
+    "recipe[workstation::zsh]",
+    "recipe[virtualbox]"
   ]
 }
 

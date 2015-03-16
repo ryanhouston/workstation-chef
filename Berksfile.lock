@@ -6,12 +6,16 @@ DEPENDENCIES
     git: git://github.com/fnichol/chef-rbenv.git
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9
   ruby_build
+  virtualbox
   workstation
     path: .
     metadata: true
   zsh
 
 GRAPH
+  apache2 (3.0.1)
+    iptables (>= 0.0.0)
+    logrotate (>= 0.0.0)
   apt (2.6.1)
   build-essential (2.1.3)
   chef_handler (1.1.6)
@@ -24,7 +28,9 @@ GRAPH
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
   heroku (0.1.0)
+  iptables (0.14.1)
   java (1.31.0)
+  logrotate (1.9.0)
   rbenv (0.7.3)
     java (> 1.4.0)
     ruby_build (>= 0.0.0)
@@ -33,6 +39,12 @@ GRAPH
     build-essential (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
+  virtualbox (1.0.3)
+    apache2 (>= 0.0.0)
+    apt (>= 0.0.0)
+    dmg (>= 0.0.0)
+    windows (>= 0.0.0)
+    yum (~> 3.1)
   windows (1.36.6)
     chef_handler (>= 0.0.0)
   workstation (0.1.0)

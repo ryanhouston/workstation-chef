@@ -11,7 +11,6 @@
       * tmux
       * ryanhouston/dotfiles repo
       * ryanhouston/Vim-Config repo
-      * virtualbox
       * repos to pre-clone
       * httpie
       * ssh keys... without exposing private keys
