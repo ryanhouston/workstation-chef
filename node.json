@@ -2,7 +2,7 @@
   "run_list": [
     "recipe[apt]",
     "recipe[git]",
-    "recipe[workstation::default]",
+    "recipe[workstation::terminal-tools]",
     "recipe[workstation::ruby]",
     "recipe[workstation::heroku]",
     "recipe[workstation::zsh]",

@@ -11,7 +11,6 @@
       * ryanhouston/dotfiles repo
       * ryanhouston/Vim-Config repo
       * repos to pre-clone
-      * httpie
       * ssh keys... without exposing private keys
     * Apps
       * keepassx
