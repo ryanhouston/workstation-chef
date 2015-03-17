@@ -9,7 +9,6 @@
     * Development
       * solarized
       * ryanhouston/dotfiles repo
-      * ryanhouston/Vim-Config repo
       * repos to pre-clone
       * ssh keys... without exposing private keys
     * Apps
@@ -25,4 +24,5 @@
       * beersmith
       * wine
       * yubikey management tools
+      * Browsers: Chromium, Chrome, Firefox
 
