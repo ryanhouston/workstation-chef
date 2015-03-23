@@ -8,21 +8,30 @@
   * Recipes to install stuff
     * Development
       * solarized
-      * ryanhouston/dotfiles repo
+      * hub
+      * vagrant
       * repos to pre-clone
-      * ssh keys... without exposing private keys
+      * ssh keys... generate new. port over any others?
     * Apps
       * keepassx
       * bittorrent sync
-      * f.lux
       * handbrake
+      * f.lux
       * hipchat
-      * hp printer tools
       * skype
-      * google music
+      * hp printer tools (hplib)
       * asunder
       * beersmith
       * wine
       * yubikey management tools
       * Browsers: Chromium, Chrome, Firefox
+      * keybase. node? dammit.
+      * spotify?
+      * google music?
+      * any media codecs?
+      * Flash?
+    * Other Stuff
+      * keyrings ($HOME/.gnome2/keyrings)
+      * anything for gpg? ($HOME/.gnupg)
+      * ergodox tools / teensy
 

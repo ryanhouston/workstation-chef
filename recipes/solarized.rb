@@ -24,15 +24,3 @@ bash "install solarized" do
   EOF
 end
 
-remote_file "/home/#{node['target_user']}/.dircolors" do
-  source "https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-dark"
-  owner node['target_user']
-end
-
-bash "solarized dircolors" do
-  user node['target_user']
-  code <<-EOF
-    eval dircolors ~/.dircolors
-  EOF
-end
-
