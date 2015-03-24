@@ -9,7 +9,6 @@
     * Development
       * solarized
       * hub
-      * vagrant
       * repos to pre-clone
       * ssh keys... generate new. port over any others?
     * Apps

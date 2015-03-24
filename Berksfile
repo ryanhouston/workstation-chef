@@ -10,4 +10,5 @@ cookbook 'heroku'
 cookbook 'zsh'
 cookbook 'virtualbox'
 cookbook 'tmux'
+cookbook 'vagrant'
 
