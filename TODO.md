@@ -12,7 +12,6 @@
       * ssh keys... generate new. port over any others?
       * keybase. node? dammit.
     * Apps
-      * keepassx
       * bittorrent sync
       * handbrake
       * f.lux
