@@ -1,0 +1,7 @@
+{
+  "name": "desktop",
+  "description": "Configuration for desktop applications",
+  "run_list": [
+  ]
+}
+

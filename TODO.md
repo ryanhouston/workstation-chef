@@ -8,9 +8,9 @@
   * Recipes to install stuff
     * Development
       * solarized
-      * hub
       * repos to pre-clone
       * ssh keys... generate new. port over any others?
+      * keybase. node? dammit.
     * Apps
       * keepassx
       * bittorrent sync
@@ -24,11 +24,9 @@
       * wine
       * yubikey management tools
       * Browsers: Chromium, Chrome, Firefox
-      * keybase. node? dammit.
       * spotify?
       * google music?
-      * any media codecs?
-      * Flash?
+      * any media codecs? (ubuntu-restricted-extras, libav)
     * Other Stuff
       * keyrings ($HOME/.gnome2/keyrings)
       * anything for gpg? ($HOME/.gnupg)
