@@ -2,6 +2,7 @@ DEPENDENCIES
   apt
   git
   heroku
+  nodejs
   rbenv
     git: git://github.com/fnichol/chef-rbenv.git
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9
@@ -15,10 +16,15 @@ DEPENDENCIES
   zsh
 
 GRAPH
+  7-zip (1.0.2)
+    windows (>= 1.2.2)
   apache2 (3.0.1)
     iptables (>= 0.0.0)
     logrotate (>= 0.0.0)
   apt (2.6.1)
+  ark (0.9.0)
+    7-zip (>= 0.0.0)
+    windows (>= 0.0.0)
   build-essential (2.1.3)
   chef_handler (1.1.6)
   dmg (2.2.2)
@@ -30,9 +36,17 @@ GRAPH
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
   heroku (0.1.0)
+  homebrew (1.12.0)
+    build-essential (>= 2.1.2)
   iptables (0.14.1)
   java (1.31.0)
   logrotate (1.9.0)
+  nodejs (2.4.0)
+    apt (>= 0.0.0)
+    ark (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    homebrew (>= 0.0.0)
+    yum-epel (>= 0.0.0)
   rbenv (0.7.3)
     java (> 1.4.0)
     ruby_build (>= 0.0.0)

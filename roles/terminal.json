@@ -4,7 +4,7 @@
   "default_attributes": {
     "tmux": {
       "install_method": "source",
-      "version": "1.9a",
+      "version":  "1.9a",
       "checksum": "c5e3b22b901cf109b20dab54a4a651f0471abd1f79f6039d79b250d21c2733f5"
     }
   },
@@ -20,7 +20,8 @@
     "recipe[tmux]",
     "recipe[workstation::solarized]",
     "recipe[workstation::vim]",
-    "recipe[workstation::dotfiles]"
+    "recipe[workstation::dotfiles]",
+    "recipe[nodejs]"
   ]
 }
 

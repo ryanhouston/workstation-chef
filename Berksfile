@@ -11,4 +11,5 @@ cookbook 'zsh'
 cookbook 'virtualbox'
 cookbook 'tmux'
 cookbook 'vagrant'
+cookbook 'nodejs'
 
