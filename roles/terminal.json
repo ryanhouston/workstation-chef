@@ -21,7 +21,8 @@
     "recipe[workstation::solarized]",
     "recipe[workstation::vim]",
     "recipe[workstation::dotfiles]",
-    "recipe[nodejs]"
+    "recipe[nodejs]",
+    "recipe[workstation::keybase]"
   ]
 }
 

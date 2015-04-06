@@ -7,10 +7,8 @@
       `curl -L https://github.com/ryanhouston/workstation/raw/master/install.sh | sudo bash`
   * Recipes to install stuff
     * Development
-      * solarized
-      * repos to pre-clone
+      * repos to pre-clone?
       * ssh keys... generate new. port over any others?
-      * keybase. node? dammit.
     * Apps
       * bittorrent sync
       * handbrake

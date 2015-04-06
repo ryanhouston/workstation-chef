@@ -10,4 +10,5 @@ depends "ruby_build"
 depends "rbenv"
 depends "heroku"
 depends "zsh"
+depends "nodejs"
 

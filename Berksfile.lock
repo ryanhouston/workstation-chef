@@ -69,6 +69,7 @@ GRAPH
     chef_handler (>= 0.0.0)
   workstation (0.1.0)
     heroku (>= 0.0.0)
+    nodejs (>= 0.0.0)
     rbenv (>= 0.0.0)
     ruby_build (>= 0.0.0)
     zsh (>= 0.0.0)
