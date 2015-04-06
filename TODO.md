@@ -11,7 +11,6 @@
       * ssh keys... generate new. port over any others?
     * Apps
       * bittorrent sync
-      * f.lux
       * hipchat
       * skype
       * hp printer tools (hplib)

@@ -3,7 +3,8 @@
   "description": "Configuration for desktop applications",
   "run_list": [
     "recipe[workstation::keepassx]",
-    "recipe[workstation::handbrake]"
+    "recipe[workstation::handbrake]",
+    "recipe[workstation::flux]"
   ]
 }
 
