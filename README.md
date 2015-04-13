@@ -17,7 +17,7 @@ Installation Steps:
 
   3. Install this repo
 
-    `git clone git://github.com/ryanhouston/workstation`
+    `git clone git://github.com/ryanhouston/workstation-chef`
 
   4. Install cookbooks
 
