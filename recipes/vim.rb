@@ -1,9 +1,3 @@
-#
-# Cookbook Name:: workstation
-# Recipe:: vim
-#
-# Copyright (c) 2015 Ryan Houston, All Rights Reserved.
-
 package "vim"
 
 git "/home/#{node['target_user']}/.vim" do

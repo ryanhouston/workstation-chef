@@ -1,9 +1,3 @@
-#
-# Cookbook Name:: workstation
-# Recipe:: heroku
-#
-# Copyright (c) 2015 Ryan Houston, All Rights Reserved.
-
 include_recipe "heroku"
 
 node[:heroku_plugins][:plugins].each do |name, repo|

@@ -1,9 +1,3 @@
-#
-# Cookbook Name:: workstation
-# Recipe:: zsh
-#
-# Copyright (c) 2015 The Authors, All Rights Reserved.
-
 include_recipe "zsh"
 
 oh_my_zsh_dir = "/home/#{node['target_user']}/.oh-my-zsh"

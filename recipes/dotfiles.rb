@@ -1,9 +1,3 @@
-#
-# Cookbook Name:: workstation
-# Recipe:: dotfiles
-#
-# Copyright (c) 2015 Ryan Houston, All Rights Reserved.
-
 package "stow"
 
 ["#{node["project_dir"]}", "#{node["project_dir"]}/ryanhouston"].each do |path|

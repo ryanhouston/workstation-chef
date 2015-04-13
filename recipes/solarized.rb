@@ -1,9 +1,3 @@
-#
-# Cookbook Name:: workstation
-# Recipe:: solarized
-#
-# Copyright (c) 2015 Ryan Houston, All Rights Reserved.
-
 package "dconf-cli"
 
 solarized_dir = "/home/#{node['target_user']}/.solarized"
