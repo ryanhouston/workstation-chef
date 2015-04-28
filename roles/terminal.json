@@ -20,6 +20,7 @@
     "recipe[tmux]",
     "recipe[workstation::solarized]",
     "recipe[workstation::vim]",
+    "recipe[workstation::powerline-fonts]",
     "recipe[workstation::dotfiles]",
     "recipe[nodejs]",
     "recipe[workstation::keybase]"
