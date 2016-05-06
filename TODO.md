@@ -7,8 +7,10 @@
       `curl -L https://github.com/ryanhouston/workstation/raw/master/install.sh | sudo bash`
   * Recipes to install stuff
     * Development
+      * wemux
       * repos to pre-clone?
       * ssh keys... generate new. port over any others?
+      * awscli
     * Apps
       * bittorrent sync
       * hipchat
